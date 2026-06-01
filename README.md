@@ -1,23 +1,21 @@
-## ✅ Recommendations
+## 📸 Dashboard Screenshots
 
-Based on the analysis, the following actions are recommended for Roxelle Nigeria Ltd. management:
+### Page 1 — Sales Performance
+![Sales Performance](images/sales_performance.png)
 
-### 1. Address Product Return Rates Urgently
-The overall return rate of 10.68% is unacceptably high for FMCG retail. Indomie Noodles specifically requires immediate investigation into supplier quality, storage conditions, and handling procedures across branches.
+### Page 2 — Customer Behaviour Analysis
+![Customer Behaviour](images/customer_behaviour.png)
 
-### 2. Expand the Loyalty Programme
-Loyalty cardholders demonstrably spend more per transaction than non-holders. Roxelle should prioritise expanding loyalty card enrolment, introduce tiered rewards, and run targeted campaigns to convert Regular customers into Loyal customers.
+### Page 3 — Product & Inventory Health
+![Product Inventory](images/product_inventory.png)
 
-### 3. Introduce Branch-Level Discount Controls
-₦2.15M was lost to discounts with no consistent evidence of proportional revenue gains. POS discount approvals should require manager authorisation above a set threshold. Each branch should be given a monthly discount budget to prevent uncontrolled margin sacrifice.
+### Page 4 — Discount & Promotions Audit
+![Discount Promotions](images/discount_promotions.png)
 
-### 4. Replicate Ikeja Branch's Cost Model
-While Surulere leads in revenue, Ikeja leads in profit margin. Ikeja's operational approach should be studied and replicated across underperforming branches to improve overall profitability.
+### Data Model — Star Schema
+![Star Schema](images/star_schema.png)
 
-### 5. Target the 36-45 Male Demographic
-This is Roxelle's highest value customer group. Marketing campaigns, promotions, and product stocking decisions should reflect this insight. Strategies to attract female customers and younger demographics should also be explored to diversify the customer base.
-
-### 6. Monitor Reorder Levels Proactively
-Products approaching reorder levels represent a stockout risk that directly impacts revenue. A weekly reorder report should be generated from the dashboard to ensure timely restocking across all branches.
+### Scheduled Refresh
+![Scheduled Refresh](images/scheduled_refresh.png)
 
 ---
