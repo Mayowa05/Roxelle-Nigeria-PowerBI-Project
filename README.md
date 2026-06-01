@@ -1,22 +1,25 @@
-## 📂 Dataset Description
+## 🗂️ Data Model
 
-Five CSV datasets were provided and loaded into Power BI via Power Query. All datasets are available in the `/datasets` folder of this repository.
+A Star Schema was built with `sales_transactions` as the central fact table and four surrounding dimension tables. All relationships were configured manually to ensure accuracy.
 
-| File | Rows | Description |
-|---|---|---|
-| `sales_transactions.csv` | 5,000 | Core fact table containing all sales transactions including quantity, price, discount, and return status |
-| `customers.csv` | 1,200 | Customer profiles including age, gender, city, loyalty card status and customer segment |
-| `products.csv` | 60 | Product catalogue containing category, sub-category, cost price, unit price and reorder level |
-| `branches.csv` | 6 | Branch information including location, manager name, opening date and store size |
-| `date.csv` | 731 | Date dimension table covering the full 2023 to 2024 trading period |
+### Relationship Configuration
 
-### Data Quality Actions Taken
+| Dimension Table | Key Column | Fact Table | Key Column | Cardinality | Filter Direction |
+|---|---|---|---|---|---|
+| customers | Customer ID | sales_transactions | Customer ID | One to Many | Single |
+| products | Product ID | sales_transactions | Product ID | One to Many | Single |
+| branches | Branch ID | sales_transactions | Branch ID | One to Many | Single |
+| date | Date | sales_transactions | Transaction Date | One to Many | Single |
 
-| Issue | Action Taken |
-|---|---|
-| 107 blank Customer IDs in sales_transactions | Replaced with "Unknown" to preserve transaction integrity |
-| No duplicate rows found in any table | Removed Duplicates step applied to all 5 tables as best practice |
-| All column names contained underscores | Renamed to professional readable format across all tables |
-| Data types not set | Correct data types assigned to every column in all 5 tables |
+### Design Decisions
+
+- **Single filter direction** was applied to all relationships to prevent ambiguous filter paths and ensure correct aggregations across all visuals
+- **Assume Referential Integrity** was left unticked on all relationships because 107 transactions contained "Unknown" Customer IDs that do not exist in the customers table
+- **No Many-to-Many relationships** exist in this model
+- A dedicated **Measures table** was created to store all DAX measures separately from the data tables
+
+### Star Schema Screenshot
+
+![Data Model](images/star_schema.png)
 
 ---
