@@ -1,25 +1,26 @@
-## 🗂️ Data Model
+## 📊 DAX Measures Documentation
 
-A Star Schema was built with `sales_transactions` as the central fact table and four surrounding dimension tables. All relationships were configured manually to ensure accuracy.
+All measures are stored in a dedicated **Measures** table. Below is the full documentation of every measure created.
 
-### Relationship Configuration
+| Measure Name | DAX Formula | Purpose |
+|---|---|---|
+| Total Revenue | `SUM(sales_transactions[Revenue After Discount])` | Sum of all revenue after discounts applied |
+| Total Cost | `SUMX(sales_transactions, sales_transactions[Quantity] * RELATED(products[Cost Price]))` | Total cost calculated row by row using product cost price |
+| Total Profit | `[Total Revenue] - [Total Cost]` | Net profit across all transactions |
+| Profit Margin % | `DIVIDE([Total Profit], [Total Revenue], 0)` | Overall profit margin as a percentage |
+| Total Transactions | `DISTINCTCOUNT(sales_transactions[Transaction ID])` | Count of unique transactions |
+| Return Rate % | `DIVIDE(COUNTROWS(FILTER(sales_transactions, sales_transactions[Is Returned] = 1)), [Total Transactions], 0)` | Percentage of transactions that resulted in a return |
+| Avg Basket Size | `DIVIDE([Total Revenue], [Total Transactions], 0)` | Average revenue per transaction |
+| MoM Revenue % | `DIVIDE([Total Revenue] - CALCULATE([Total Revenue], DATEADD('date'[Date], -1, MONTH)), CALCULATE([Total Revenue], DATEADD('date'[Date], -1, MONTH)), 0)` | Month over month revenue change as a percentage |
+| YoY Revenue % | `DIVIDE([Total Revenue] - CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('date'[Date])), CALCULATE([Total Revenue], SAMEPERIODLASTYEAR('date'[Date])), 0)` | Year over year revenue growth as a percentage |
+| Revenue Lost to Discount | `SUMX(sales_transactions, sales_transactions[Quantity] * sales_transactions[Unit Price] * (sales_transactions[Discount %] / 100))` | Total revenue sacrificed through discounting |
 
-| Dimension Table | Key Column | Fact Table | Key Column | Cardinality | Filter Direction |
-|---|---|---|---|---|---|
-| customers | Customer ID | sales_transactions | Customer ID | One to Many | Single |
-| products | Product ID | sales_transactions | Product ID | One to Many | Single |
-| branches | Branch ID | sales_transactions | Branch ID | One to Many | Single |
-| date | Date | sales_transactions | Transaction Date | One to Many | Single |
+### Calculated Columns
 
-### Design Decisions
-
-- **Single filter direction** was applied to all relationships to prevent ambiguous filter paths and ensure correct aggregations across all visuals
-- **Assume Referential Integrity** was left unticked on all relationships because 107 transactions contained "Unknown" Customer IDs that do not exist in the customers table
-- **No Many-to-Many relationships** exist in this model
-- A dedicated **Measures table** was created to store all DAX measures separately from the data tables
-
-### Star Schema Screenshot
-
-![Data Model](images/star_schema.png)
+| Column | Table | Formula | Purpose |
+|---|---|---|---|
+| Revenue After Discount | sales_transactions | Created in Power Query | Quantity x Unit Price x (1 - Discount% / 100) |
+| Profit Per Transaction | sales_transactions | `(sales_transactions[Unit Price] * sales_transactions[Quantity]) - (RELATED(products[Cost Price]) * sales_transactions[Quantity])` | Profit generated per individual transaction |
+| Age Group | customers | `IF(customers[Age] >= 56, "56+", IF(customers[Age] >= 46, "46-55", IF(customers[Age] >= 36, "36-45", IF(customers[Age] >= 26, "26-35", "18-25"))))` | Buckets customer ages into 5 groups for analysis |
 
 ---
