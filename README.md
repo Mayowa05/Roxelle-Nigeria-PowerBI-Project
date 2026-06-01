@@ -1,30 +1,23 @@
-## 💡 Key Insights & Findings
+## ✅ Recommendations
 
-### Sales Performance
-- Total revenue of **₦76.07M** was generated across 5,000 transactions over the 2023 to 2024 period
-- Overall profit margin stands at **30.43%** which is healthy for an FMCG retail operation
-- **Surulere Branch** generated the highest total revenue across all six branches
-- **Ikeja Branch** recorded the highest profit margin, demonstrating superior cost efficiency
-- Year-over-year revenue grew by **100.77%** from 2023 to 2024
-- Revenue peaks in the middle of the year with a notable dip towards the end of the year
+Based on the analysis, the following actions are recommended for Roxelle Nigeria Ltd. management:
 
-### Customer Behaviour
-- **Regular customers** generate the most revenue across all four customer segments
-- Loyalty cardholders spend **more per transaction** than non-holders, confirming the programme delivers value
-- **Male customers** are the dominant revenue-generating gender
-- The **36-45 age group** is Roxelle's most valuable demographic by revenue contribution
-- **Lagos** is the most active city by number of transactions
+### 1. Address Product Return Rates Urgently
+The overall return rate of 10.68% is unacceptably high for FMCG retail. Indomie Noodles specifically requires immediate investigation into supplier quality, storage conditions, and handling procedures across branches.
 
-### Product & Inventory Health
-- The overall product return rate is **10.68%** — above acceptable FMCG retail thresholds
-- **Indomie Noodles** recorded the highest individual product return rate across all 60 SKUs
-- Clear top and bottom performers exist within the product portfolio across all three categories
-- Certain products are consistently approaching their reorder levels creating potential stockout risk
+### 2. Expand the Loyalty Programme
+Loyalty cardholders demonstrably spend more per transaction than non-holders. Roxelle should prioritise expanding loyalty card enrolment, introduce tiered rewards, and run targeted campaigns to convert Regular customers into Loyal customers.
 
-### Discount & Promotions Audit
-- **₦2.15M** in revenue was lost to discounts across the full trading period
-- Discounts are applied inconsistently across branches with no clear correlation between heavy discounting and proportionally higher sales volume
-- **POS payments** are the most common channel associated with discounted transactions
-- No strong evidence exists that higher discount levels consistently produce larger basket sizes
+### 3. Introduce Branch-Level Discount Controls
+₦2.15M was lost to discounts with no consistent evidence of proportional revenue gains. POS discount approvals should require manager authorisation above a set threshold. Each branch should be given a monthly discount budget to prevent uncontrolled margin sacrifice.
+
+### 4. Replicate Ikeja Branch's Cost Model
+While Surulere leads in revenue, Ikeja leads in profit margin. Ikeja's operational approach should be studied and replicated across underperforming branches to improve overall profitability.
+
+### 5. Target the 36-45 Male Demographic
+This is Roxelle's highest value customer group. Marketing campaigns, promotions, and product stocking decisions should reflect this insight. Strategies to attract female customers and younger demographics should also be explored to diversify the customer base.
+
+### 6. Monitor Reorder Levels Proactively
+Products approaching reorder levels represent a stockout risk that directly impacts revenue. A weekly reorder report should be generated from the dashboard to ensure timely restocking across all branches.
 
 ---
