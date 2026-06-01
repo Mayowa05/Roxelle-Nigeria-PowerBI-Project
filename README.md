@@ -8,9 +8,9 @@
 
 ## 📌 1. Project Overview
 
-This project was completed as a Final Year Capstone Assignment for Roxelle Nigeria Ltd., a mid-size Fast-Moving Consumer Goods (FMCG) retail chain operating six branches across Lagos and Abuja. The company sells products across three core categories — Food & Beverages, Personal Care, and Household Essentials.
+This project was completed as a Final Year Capstone Assignment for Roxelle Nigeria Ltd., a mid-size Fast-Moving Consumer Goods (FMCG) retail chain operating six branches across Lagos and Abuja. The company sells products across three core categories; Food & Beverages, Personal Care, and Household Essentials.
 
-The goal of this project was to design and build a professional, interactive Power BI dashboard that gives Roxelle's management team full visibility into their sales performance, customer behaviour, product health, and discount spending — replacing their previous reliance on gut instinct and manually updated spreadsheets.
+The goal of this project was to design and build a professional, interactive Power BI dashboard that gives Roxelle's management team full visibility into their sales performance, customer behaviour, product health, and discount spending, replacing their previous reliance on gut instinct and manually updated spreadsheets.
 
 ---
 
