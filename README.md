@@ -1,12 +1,39 @@
-## 🛠️ Tools Used
+## 🔗 Published Report & Submission Checklist
 
-| Tool | Purpose |
+### Published Power BI Report
+🔗 [Click here to view the live dashboard](https://app.powerbi.com/groups/me/reports/6c01a029-3f7c-49d8-a846-441ca68573fd/6d858c2e0e5c62e4de07?experience=power-bi&clientSideAuth=0)
+
+### Scheduled Refresh
+Scheduled refresh configuration screenshot is available in the `/images` folder of this repository.
+
+### Submission Checklist
+
+| Item | Status |
 |---|---|
-| Microsoft Power BI Desktop | Data cleaning, modelling, DAX measures, and dashboard building |
-| Power Query Editor | Data loading, transformation, and cleaning of all 5 CSV datasets |
-| DAX (Data Analysis Expressions) | Writing all calculated measures and columns |
-| Microsoft Power BI Service | Publishing and sharing the completed dashboard online |
-| GitHub | Version control and project portfolio documentation |
-| Microsoft Word | 2-page written summary report |
+| Power BI .pbix file uploaded to GitHub | ✅ Complete |
+| All 5 CSV datasets in /datasets folder | ✅ Complete |
+| Published Power BI Service link | ✅ Complete |
+| Scheduled Refresh screenshot in README | ✅ Complete |
+| GitHub README contains all 10 sections | ✅ Complete |
+| DAX measures fully documented in README | ✅ Complete |
+| Data model screenshot visible in README | ✅ Complete |
+| Minimum 4 dashboard screenshots included | ✅ Complete |
+| 2-page written summary PDF in repository | ✅ Complete |
+| Repository set to Public | ✅ Complete |
 
 ---
+
+## 👤 Author
+
+| Detail | Info |
+|---|---|
+| **Name** | Mayowa Ishola |
+| **Project Type** | Final Year Capstone Assignment |
+| **Tool** | Microsoft Power BI |
+| **Issued By** | Temperance Godwin, Head of Business Intelligence |
+| **Date** | May 2026 |
+
+---
+
+*This project was completed as part of a Power BI Final Year Capstone Assignment. 
+All data used is synthetic and generated for educational purposes only.*
