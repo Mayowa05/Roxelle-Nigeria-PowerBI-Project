@@ -1,0 +1,7 @@
+BranchID,BranchName,City,State,ManagerName,OpeningDate,StoreSizeSqm
+B001,Ikeja Branch,Lagos,Lagos,Chukwuemeka Obi,2022-01-15,320
+B002,Lekki Branch,Lagos,Lagos,Fatima Bello,2022-03-10,280
+B003,Victoria Island Branch,Lagos,Lagos,Segun Adeyemi,2022-06-01,410
+B004,Surulere Branch,Lagos,Lagos,Ngozi Eze,2022-08-20,250
+B005,Wuse Branch,Abuja,FCT,Musa Aliyu,2023-01-05,300
+B006,Garki Branch,Abuja,FCT,Amaka Okafor,2023-04-12,270

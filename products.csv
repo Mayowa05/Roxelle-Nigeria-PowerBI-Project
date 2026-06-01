@@ -1,0 +1,61 @@
+ProductID,ProductName,Category,SubCategory,CostPrice,UnitPrice,ReorderLevel,Supplier
+P001,Indomie Noodles,Food & Beverages,Food & Beverages,2985.59,3761.86,27,Abuja Wholesale Co
+P002,Golden Morn Cereal,Food & Beverages,Food & Beverages,1237.49,1911.41,44,Lagos Distributors Ltd
+P003,Nestlé Milo 400g,Food & Beverages,Food & Beverages,2780.07,3510.43,15,Abuja Wholesale Co
+P004,Bournvita 500g,Food & Beverages,Food & Beverages,1277.18,1904.03,45,Abuja Wholesale Co
+P005,Dano Milk Powder,Food & Beverages,Food & Beverages,3307.28,5061.89,36,Abuja Wholesale Co
+P006,Peak Milk Tin,Food & Beverages,Food & Beverages,2186.68,2976.68,10,Abuja Wholesale Co
+P007,Chicken of the Sea Sardines,Food & Beverages,Food & Beverages,3232.19,4480.14,19,Abuja Wholesale Co
+P008,Gino Tomato Paste,Food & Beverages,Food & Beverages,4320.29,5982.04,15,NigeriaFMCG Hub
+P009,Mama Gold Rice 5kg,Food & Beverages,Food & Beverages,706.21,1122.17,48,PanAfrica Foods
+P010,Titus Mackerel,Food & Beverages,Food & Beverages,3689.94,5689.49,44,Lagos Distributors Ltd
+P011,Hollandia Yoghurt,Food & Beverages,Food & Beverages,4387.09,6148.13,45,PanAfrica Foods
+P012,Chi Exotic Juice,Food & Beverages,Food & Beverages,3783.5,5665.44,33,Kano Supplies Inc
+P013,Amstel Malta,Food & Beverages,Food & Beverages,1107.61,1415.33,24,PanAfrica Foods
+P014,Malta Guinness,Food & Beverages,Food & Beverages,4437.93,7065.75,16,NigeriaFMCG Hub
+P015,Fanta Orange 60cl,Food & Beverages,Food & Beverages,1467.49,2207.51,33,Abuja Wholesale Co
+P016,Cocacola 50cl,Food & Beverages,Food & Beverages,1854.76,2473.88,27,Lagos Distributors Ltd
+P017,Sprite 50cl,Food & Beverages,Food & Beverages,2858.35,3768.61,25,Abuja Wholesale Co
+P018,Eva Water 75cl,Food & Beverages,Food & Beverages,2241.49,3043.9,50,Kano Supplies Inc
+P019,Ragolis Water 1.5L,Food & Beverages,Food & Beverages,1222.38,1686.53,13,Abuja Wholesale Co
+P020,Power Horse Energy,Food & Beverages,Food & Beverages,3751.57,5897.54,35,PanAfrica Foods
+P021,Dove Soap,Personal Care,Personal Care,577.99,933.6,46,PanAfrica Foods
+P022,Lux Body Wash,Personal Care,Personal Care,1193.03,1729.53,39,Abuja Wholesale Co
+P023,Vaseline Petroleum Jelly,Personal Care,Personal Care,1412.5,1904.97,45,Kano Supplies Inc
+P024,Nivea Body Lotion,Personal Care,Personal Care,1403.51,2082.58,47,NigeriaFMCG Hub
+P025,Oral-B Toothbrush,Personal Care,Personal Care,1820.39,3001.7,18,Kano Supplies Inc
+P026,Close-Up Toothpaste,Personal Care,Personal Care,2372.77,3683.28,17,Abuja Wholesale Co
+P027,Dettol Soap,Personal Care,Personal Care,2935.27,4599.07,37,Kano Supplies Inc
+P028,Rexona Deodorant,Personal Care,Personal Care,566.82,795.05,39,Kano Supplies Inc
+P029,Tresemme Shampoo,Personal Care,Personal Care,1355.94,1994.98,10,Lagos Distributors Ltd
+P030,Pantene Conditioner,Personal Care,Personal Care,3163.18,4633.39,27,PanAfrica Foods
+P031,Always Ultra Pads,Personal Care,Personal Care,768.52,1094.3,39,Lagos Distributors Ltd
+P032,Pampers Baby Dry,Personal Care,Personal Care,4306.03,6891.12,26,Kano Supplies Inc
+P033,Gillette Mach3,Personal Care,Personal Care,3500.24,5086.1,16,PanAfrica Foods
+P034,Durex Condoms,Personal Care,Personal Care,3835.01,5572.52,22,Abuja Wholesale Co
+P035,Luster's Pink Lotion,Personal Care,Personal Care,1870.44,2458.92,43,Lagos Distributors Ltd
+P036,Dark & Lovely Relaxer,Personal Care,Personal Care,2815.57,4069.74,17,PanAfrica Foods
+P037,Cantu Shea Butter,Personal Care,Personal Care,3990.63,6315.84,29,Abuja Wholesale Co
+P038,Fela Hair Cream,Personal Care,Personal Care,543.29,869.92,15,Lagos Distributors Ltd
+P039,African Pride Braid Spray,Personal Care,Personal Care,3374.01,5318.82,44,Abuja Wholesale Co
+P040,Revlon Electric,Personal Care,Personal Care,839.24,1208.6,45,Abuja Wholesale Co
+P041,Ariel Detergent 1kg,Household Essentials,Household Essentials,1413.24,2259.73,37,Abuja Wholesale Co
+P042,Omo Multi-Active 2kg,Household Essentials,Household Essentials,4201.44,6521.08,22,PanAfrica Foods
+P043,Sunlight Dish Soap,Household Essentials,Household Essentials,1975.77,3000.55,33,NigeriaFMCG Hub
+P044,Hypo Bleach,Household Essentials,Household Essentials,4078.38,5834.51,25,Abuja Wholesale Co
+P045,Baygon Insecticide,Household Essentials,Household Essentials,568.91,715.92,45,Abuja Wholesale Co
+P046,Raid Cockroach Killer,Household Essentials,Household Essentials,2771.45,3472.28,50,Lagos Distributors Ltd
+P047,Good Morning Broom,Household Essentials,Household Essentials,1261.56,2033.85,31,Lagos Distributors Ltd
+P048,Royco Seasoning Cubes,Household Essentials,Household Essentials,2459.46,3348.29,41,Abuja Wholesale Co
+P049,Knorr Chicken Cubes,Household Essentials,Household Essentials,2564.78,3948.07,46,Kano Supplies Inc
+P050,Maggi Star Cubes,Household Essentials,Household Essentials,2285.22,3573.74,36,Abuja Wholesale Co
+P051,Tastic Rice 2kg,Household Essentials,Household Essentials,696.17,1053.72,32,NigeriaFMCG Hub
+P052,Honeywell Flour 2kg,Household Essentials,Household Essentials,2026.63,3233.56,13,Lagos Distributors Ltd
+P053,Soya Oil 2L,Household Essentials,Household Essentials,554.57,854.75,16,Abuja Wholesale Co
+P054,Kings Vegetable Oil 3L,Household Essentials,Household Essentials,1104.68,1617.82,18,NigeriaFMCG Hub
+P055,Trophy Groundnut Oil,Household Essentials,Household Essentials,1070.65,1536.44,14,NigeriaFMCG Hub
+P056,Nasco Cornflakes,Household Essentials,Household Essentials,3693.69,5881.78,16,Lagos Distributors Ltd
+P057,Quaker Oats,Household Essentials,Household Essentials,3039.01,4455.9,10,Lagos Distributors Ltd
+P058,Golden Penny Spaghetti,Household Essentials,Household Essentials,4190.74,6661.09,20,NigeriaFMCG Hub
+P059,Dangote Sugar 1kg,Household Essentials,Household Essentials,2339.69,3124.65,35,Lagos Distributors Ltd
+P060,Bama Mayonnaise,Household Essentials,Household Essentials,991.48,1240.2,34,PanAfrica Foods
